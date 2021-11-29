@@ -1,0 +1,35 @@
+{
+  "name": "lazerbeatmapmanager",
+  "version": "0.1.0",
+  "description": "A simple CLI tools, to export/view your osu!lazer beatmaps",
+  "main": "lazermanager.js",
+  "scripts": {
+    "test": "tsc -p tsconfig.json",
+    "start": "tsc -p tsconfig.json && node build/lazermanager.js",
+    "build": "tsc -p tsconfig.json",
+    "run": "node build/lazermanager.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIRTAGT/LazerBeatmapManager.git"
+  },
+  "keywords": [
+    "osu",
+    "CLI",
+    "TIRTAGT",
+    "lazer"
+  ],
+  "author": "Matthew Tirtawidjaja <matthew@tirtagt.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TIRTAGT/LazerBeatmapManager/issues"
+  },
+  "homepage": "https://github.com/TIRTAGT/LazerBeatmapManager#readme",
+  "dependencies": {
+    "@types/archiver": "^5.1.1",
+    "@types/better-sqlite3": "^7.4.1",
+    "@types/node": "^16.11.10",
+    "archiver": "^5.3.0",
+    "better-sqlite3": "^7.4.5"
+  }
+}
