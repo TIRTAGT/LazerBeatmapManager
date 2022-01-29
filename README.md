@@ -9,6 +9,7 @@ Written on NodeJS, this guarantees as easy as possible setup.
 1.  NodeJS version higher than v14+
     - Tested NodeJS version :
        - v14.18.1
+       - v17.2.0
 
 2.  npm
 	- Tested npm version :
@@ -18,7 +19,7 @@ Written on NodeJS, this guarantees as easy as possible setup.
 
 	In the future, I might will test it on windows.
 	- Tested Operating System version :
-    	- Arch Linux (Kernal: 5.15.5-arch1-1)
+    	- Arch Linux (Kernel: 5.16.2.arch1-1)
 
 ---
 ## Why was this project created
@@ -36,13 +37,13 @@ I appreciate your contribution to the open source world.
 
 1. Compile the project, and run the project with :
     - Extract All beatmaps :
-     	- node build/lazermanager.js [osu!lazer path] -e [?output_directory]
+     	- ``node build/lazermanager.js [osu!lazer path] -e [?output_directory]``
 
 	- View All beatmaps
-       - node build/lazermanager.js [osu!lazer path] -v
+       - ``node build/lazermanager.js [osu!lazer path] -v``
 
 	- Display the help message :
-    	- node build/lazermanager.js "" -h
+    	- ``node build/lazermanager.js "" -h``
 
 ---
 ## Future plans on this project
@@ -74,9 +75,9 @@ The basic syntax is as follows:
 	- [ozu!lazer path] are a path to your osu!lazer installation directory.
   
 	- [mode] can be one of these :
-    	- ``-e`` Extract Beatmaps from osu!lazer directory to the output_directory
-    	- ``-v`` View beatmaps from the osu!lazer directory
-    	- ``-h`` Displays a help message
+    	- -e  => Extract Beatmaps from osu!lazer directory to the output_directory
+    	- -v  => View beatmaps from the osu!lazer directory
+    	- -h  => Displays a help message
 
   	- [?output_directory] are the location to store the exported beatmaps.
     	- Will only be required when running with the ``-e`` mode.
